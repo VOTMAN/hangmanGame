@@ -47,5 +47,3 @@ This function is responsible for displaying ASCII art representing the hangman's
 - Random Module: In-build with python
 - pyfiglet Module: `pip install pyfiglet`
 - termcolor Module: `pip install termcolor`
-
-This Hangman game provides an engaging and interactive way to challenge your word-guessing skills while enjoying ASCII art visuals. Players have to guess the word and avoid incorrect guesses to save the hangman from being hanged. The game's code is well-structured and user-friendly, allowing players to focus on the gameplay.
