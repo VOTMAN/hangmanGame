@@ -1,7 +1,11 @@
 # hangmanGame
 
-## Overview
-This documentation provides a comprehensive explanation of the Python Hangman game code. The Hangman game is a word-guessing game where players attempt to guess a hidden word by suggesting letters. If they make too many incorrect guesses, a hangman figure is drawn.
+#### Video Demo: [url]
+#### Description
+This documentation provides a in-depth explanation of the Python Hangman game code. The Hangman game is a word-guessing game where players attempt to guess a hidden word by suggesting letters. If they make too many incorrect guesses, a hangman figure is drawn.
+
+## Note
+For the purposes of simplicity, i've used only the days of the week as the words to be guessed in this game.
 
 ## Features
 
@@ -36,8 +40,12 @@ This function is responsible for displaying ASCII art representing the hangman's
 - If the word is correctly guessed or six wrong guesses are made, the game ends, and an appropriate message is displayed in green (win) or red (loss).
 
 ## Dependencies
+  All the modules are installed with pip
 - `random`: Used for random word selection.
 - `pyfiglet`: Used for creating stylized text.
 - `termcolor`: Used for adding colored text.
+- Random Module: In-build with python
+- pyfiglet Module: `pip install pyfiglet`
+- termcolor Module: `pip install termcolor`
 
 This Hangman game provides an engaging and interactive way to challenge your word-guessing skills while enjoying ASCII art visuals. Players have to guess the word and avoid incorrect guesses to save the hangman from being hanged. The game's code is well-structured and user-friendly, allowing players to focus on the gameplay.
